@@ -1,0 +1,69 @@
+/* Delete Account Page Styles */
+.delete-account-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 100px auto; /* Centers the box in the page */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 10px 10px 0px #83EAE2, /* L-shaped shadow for bright mode */
+                0px 20px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    text-align: center;
+}
+
+.delete-account-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel-button, .delete-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #e0e0e0;
+}
+
+.delete-button {
+    background-color: #8BC9D1;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #d4d4d4;
+}
+
+.delete-button:hover {
+    background-color: #06d0e3;
+}
+
+/* Night mode specific styles */
+.night-mode .delete-account-container {
+    background-color: #1c2833;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 0px #b0b0b0, /* L-shaped light grey shadow */
+                0px 20px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    text-align: center;
+}
+
+.night-mode .delete-account-buttons .cancel-button, 
+.night-mode .delete-account-buttons .delete-button {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.night-mode .delete-account-buttons .cancel-button:hover, 
+.night-mode .delete-account-buttons .delete-button:hover {
+    background-color: #4a6c87;
+}
