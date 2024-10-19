@@ -250,7 +250,7 @@ const Dashboard = ({ showSidebar }) => {
             <li>Summarize the Text</li>
             <li
               onClick={() =>
-                (window.location.href = "http://localhost:5173/#darkMode")
+                (window.location.href = "https://ml-bot.vercel.app/")
               }
             >
               MultiLanguage
